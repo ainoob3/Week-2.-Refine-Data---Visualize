@@ -1,8 +1,8 @@
+import re
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 from konlpy.tag import Okt
 from collections import Counter
-
 # 한국어 텍스트 입력 (예시)
 text = """
  “사상 최고치! 대규모 경제성장!”
